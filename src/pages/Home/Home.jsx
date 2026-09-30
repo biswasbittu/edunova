@@ -1,15 +1,8 @@
 const Home = () => {
     return (
-        <div>
+        <div className="max-w-7xl mx-auto">
            <h1>This is Home</h1> 
-           <button className="btn btn-neutral">Neutral</button>
-<button className="btn btn-primary">Primary</button>
-<button className="btn btn-secondary">Secondary</button>
-<button className="btn btn-accent">Accent</button>
-<button className="btn btn-info">Info</button>
-<button className="btn btn-success">Success</button>
-<button className="btn btn-warning">Warning</button>
-<button className="btn btn-error">Error</button>
+        
         </div>
     );
 };
