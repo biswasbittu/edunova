@@ -17,7 +17,8 @@ export const router = createBrowserRouter([
             },
             {
                 path:"/articles",
-                element:<Articles/>
+                element:<Articles/>,
+                loader:async()=>{return fetch(`https://dev.to/api/articles?per_page=20&top=7`)}
             },
             {
                 path:"/categories",
